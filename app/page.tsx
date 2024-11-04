@@ -5,7 +5,14 @@ export default function Home() {
   return (
     <main className="bg-black h-screen flex items-center justify-center">
       <div className="bg-black">
-        <Image src="/sayz-transparent.png" alt="noxt-transparent.png" width={100} height={100} className=" shadow shadow-[#828282] rounded-full" />
+        <Image 
+        draggable="false"
+        src="https://ucarecdn.com/86e3de83-bd71-4ba0-9da7-d9d9335d8ee2/sayztransparent.png"
+        alt="sayz-transparent.png" 
+        width={100} 
+        height={100}
+        priority
+        className=" shadow shadow-[#828282] rounded-full cursor-alias" />
         <div className="flex items-center justify-center mt-2">
           <p className="text-white text-xl font-semibold">sayz.us</p>
         </div>
